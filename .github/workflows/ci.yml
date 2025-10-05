@@ -36,6 +36,9 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Cấp quyền thực thi cho Maven wrapper
+        run: chmod +x ./mvnw
+
       - name: Build Spring Boot backend
         working-directory: ./backend
         run: |
