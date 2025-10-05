@@ -71,8 +71,9 @@ npm run dev
 
 Frontend will run at 👉 http://localhost:3000
 
+---
 
-🧩 Features
+##🧩 Features
 
 ✅ User authentication & authorization
 ✅ Course management (CRUD)
@@ -81,7 +82,9 @@ Frontend will run at 👉 http://localhost:3000
 ✅ RESTful API integration
 ✅ Responsive UI
 
-🚀 CI/CD - GitHub Actions
+---
+
+##🚀 CI/CD - GitHub Actions
 
 The project uses GitHub Actions for:
 Code quality check via Qodana
@@ -90,7 +93,9 @@ Test execution and deployment (future setup)
 See workflow files in:
 .github/workflows/
 
-🧠 Qodana (Code Quality)
+---
+
+##🧠 Qodana (Code Quality)
 
 Qodana is integrated to automatically analyze your code for potential issues.
 To run it locally:
@@ -98,8 +103,9 @@ docker run -it --rm \
   -v $(pwd):/data/project \
   jetbrains/qodana-jvm-community
 
+---
 
-🤝 Contributing
+##🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/new-feature)
@@ -107,10 +113,14 @@ docker run -it --rm \
 4. Push to branch (git push origin feature/new-feature)
 5. Open a Pull Request 🚀
 
-📜 License
+---
+
+##📜 License
 
 This project is licensed under the MIT License — see LICENSE
  for details.
+
+---
 
 ##💬 Author
 
