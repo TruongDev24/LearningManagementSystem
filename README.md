@@ -26,19 +26,20 @@ This project provides an end-to-end solution for managing courses, users, and on
 
 ## 🗃️ Project Structure
 
-LearningManagementSystem/
-├── backend/ # Spring Boot API
-│ ├── src/main/java/... # Java source code
-│ ├── src/main/resources/ # application.yml / properties
-│ └── pom.xml
-│
-├── frontend/ # Next.js client app
-│ ├── src/ # React components, pages
-│ ├── public/ # Static assets
-│ └── package.json
-│
-└── .github/
-└── workflows/ # CI/CD (GitHub Actions, Qodana)
+.
+├── LearningManagementSystem/
+├── ├── backend/ # Spring Boot API
+├── │ ├── src/main/java/... # Java source code
+├── │ ├── src/main/resources/ # application.yml / properties
+├── │ └── pom.xml
+├── │
+├── ├── frontend/ # Next.js client app
+├── │ ├── src/ # React components, pages
+├── │ ├── public/ # Static assets
+├── │ └── package.json
+├── │
+├── └── .github/
+└── └── workflows/ # CI/CD (GitHub Actions, Qodana)
 
 ---
 
@@ -48,21 +49,22 @@ LearningManagementSystem/
 ```bash
 git clone https://github.com/TruongDev24/LearningManagementSystem.git
 cd LearningManagementSystem
+```
 
-2️⃣ Setup Database (PostgreSQL)
+###2️⃣ Setup Database (PostgreSQL)
 
 Install PostgreSQL and ensure it's running on port 5432.
 Create a database named lms.
 Update your credentials in:
 backend/src/main/resources/application.properties
 
-3️⃣ Run Backend
+###3️⃣ Run Backend
 cd backend
 ./mvnw spring-boot:run
 
 Server will start at 👉 http://localhost:8080
 
-4️⃣ Run Frontend
+###4️⃣ Run Frontend
 cd frontend
 npm install
 npm run dev
@@ -70,7 +72,7 @@ npm run dev
 Frontend will run at 👉 http://localhost:3000
 
 
-🧩 Features
+##🧩 Features
 
 ✅ User authentication & authorization
 ✅ Course management (CRUD)
@@ -79,7 +81,7 @@ Frontend will run at 👉 http://localhost:3000
 ✅ RESTful API integration
 ✅ Responsive UI
 
-🚀 CI/CD - GitHub Actions
+##🚀 CI/CD - GitHub Actions
 
 The project uses GitHub Actions for:
 Code quality check via Qodana
@@ -88,7 +90,7 @@ Test execution and deployment (future setup)
 See workflow files in:
 .github/workflows/
 
-🧠 Qodana (Code Quality)
+##🧠 Qodana (Code Quality)
 
 Qodana is integrated to automatically analyze your code for potential issues.
 To run it locally:
@@ -97,7 +99,7 @@ docker run -it --rm \
   jetbrains/qodana-jvm-community
 
 
-🤝 Contributing
+##🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/new-feature)
@@ -105,12 +107,12 @@ docker run -it --rm \
 4. Push to branch (git push origin feature/new-feature)
 5. Open a Pull Request 🚀
 
-📜 License
+##📜 License
 
 This project is licensed under the MIT License — see LICENSE
  for details.
 
-💬 Author
+##💬 Author
 
 👨‍💻 TruongDev24
 🌐 GitHub Profile
