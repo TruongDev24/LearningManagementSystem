@@ -73,39 +73,42 @@ Frontend will run at 👉 http://localhost:3000
 
 ---
 
-##🧩 Features
+## 🧩 Features
 
-✅ User authentication & authorization
-✅ Course management (CRUD)
-✅ Enrollment system
-✅ Progress tracking
-✅ RESTful API integration
-✅ Responsive UI
+✅ User authentication & authorization  
+✅ Course management (CRUD)  
+✅ Enrollment system  
+✅ Progress tracking  
+✅ RESTful API integration  
+✅ Responsive UI  
 
 ---
 
-##🚀 CI/CD - GitHub Actions
+## 🚀 CI/CD - GitHub Actions
 
 The project uses GitHub Actions for:
-Code quality check via Qodana
-Automated build for both frontend and backend
-Test execution and deployment (future setup)
-See workflow files in:
-.github/workflows/
+- Code quality check via Qodana  
+- Automated build for both frontend and backend  
+- Test execution and deployment (future setup)
 
+See workflow files in:
+```
+.github/workflows/
+```
 ---
 
-##🧠 Qodana (Code Quality)
+## 🧠 Qodana (Code Quality)
 
 Qodana is integrated to automatically analyze your code for potential issues.
 To run it locally:
+```
 docker run -it --rm \
   -v $(pwd):/data/project \
   jetbrains/qodana-jvm-community
-
+```
 ---
 
-##🤝 Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (git checkout -b feature/new-feature)
@@ -115,14 +118,14 @@ docker run -it --rm \
 
 ---
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License — see LICENSE
  for details.
 
 ---
 
-##💬 Author
+## 💬 Author
 
 👨‍💻 TruongDev24
 🌐 GitHub Profile
