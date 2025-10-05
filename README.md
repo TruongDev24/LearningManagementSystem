@@ -59,15 +59,19 @@ Update your credentials in:
 backend/src/main/resources/application.properties
 
 3️⃣ Run Backend
+```
 cd backend
 ./mvnw spring-boot:run
+```
 
 Server will start at 👉 http://localhost:8080
 
 4️⃣ Run Frontend
+```
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend will run at 👉 http://localhost:3000
 
@@ -82,7 +86,6 @@ Frontend will run at 👉 http://localhost:3000
 ✅ RESTful API integration  
 ✅ Responsive UI  
 
----
 
 ## 🚀 CI/CD - GitHub Actions
 
@@ -95,7 +98,6 @@ See workflow files in:
 ```
 .github/workflows/
 ```
----
 
 ## 🧠 Qodana (Code Quality)
 
@@ -106,7 +108,6 @@ docker run -it --rm \
   -v $(pwd):/data/project \
   jetbrains/qodana-jvm-community
 ```
----
 
 ## 🤝 Contributing
 
@@ -116,14 +117,12 @@ docker run -it --rm \
 4. Push to branch (git push origin feature/new-feature)
 5. Open a Pull Request 🚀
 
----
 
 ## 📜 License
 
 This project is licensed under the MIT License — see LICENSE
  for details.
 
----
 
 ## 💬 Author
 
