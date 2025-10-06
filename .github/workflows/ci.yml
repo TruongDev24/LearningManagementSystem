@@ -37,6 +37,7 @@ jobs:
           java-version: 21
 
       - name: Cấp quyền thực thi cho Maven wrapper
+        working-directory: ./backend
         run: chmod +x ./mvnw
 
       - name: Build Spring Boot backend
